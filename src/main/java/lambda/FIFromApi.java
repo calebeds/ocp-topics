@@ -1,8 +1,14 @@
 package lambda;
 
 import java.time.LocalTime;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 import java.util.Locale;
+import java.util.Map;
+import java.util.function.BiConsumer;
 import java.util.function.BiPredicate;
+import java.util.function.Consumer;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
 
@@ -35,7 +41,23 @@ public class FIFromApi {
     }
 
     private static void showConsumer() {
+        Consumer<String> print = s -> System.out.println(s);
+        print.accept("To be or not be, that is the question");
 
+        List<String> names = new ArrayList<>();
+        names.add("John");
+        names.add("Mary");
+        names.forEach(print);
+
+        Map<String, String> mapCapitalCities = new HashMap<>();
+
+        BiConsumer<String, String> biConsumer = (key, value) -> mapCapitalCities.put(key, value);
+        biConsumer.accept("Dublin", "Ireland");
+        biConsumer.accept("Washington D.C", "USA");
+        System.out.println(mapCapitalCities);
+
+        BiConsumer<String, String> mapPrint = (key, value) -> System.out.printf("%s is the capital of %s%n", key, value);
+        mapCapitalCities.forEach(mapPrint);
     }
 
     private static void showFunction() {
