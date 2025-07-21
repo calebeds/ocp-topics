@@ -1,7 +1,10 @@
 package lambda;
 
+import java.time.LocalTime;
+import java.util.Locale;
 import java.util.function.BiPredicate;
 import java.util.function.Predicate;
+import java.util.function.Supplier;
 
 public class FIFromApi {
     public static void main(String[] args) {
@@ -21,7 +24,14 @@ public class FIFromApi {
     }
 
     private static void showSupplier() {
+        Supplier<StringBuilder> supplier = () -> new StringBuilder();
+        System.out.println("Supplier StringBuilder: " + supplier.get().append("SK"));
 
+        Supplier<LocalTime> localTimeSupplier = () -> LocalTime.now();
+        System.out.println("Supplier time: " + localTimeSupplier.get());
+
+        Supplier<Double> doubleSupplier = () -> Math.random();
+        System.out.println("Supplier Double: " + doubleSupplier.get());
     }
 
     private static void showConsumer() {
