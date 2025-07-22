@@ -4,15 +4,16 @@ import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Locale;
 import java.util.Map;
 import java.util.function.BiConsumer;
+import java.util.function.BiFunction;
 import java.util.function.BiPredicate;
 import java.util.function.Consumer;
+import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
 
-public class FIFromApi {
+public class FunctionalInterfacesFromApi {
     public static void main(String[] args) {
         showPredicate();
         showSupplier();
@@ -61,7 +62,14 @@ public class FIFromApi {
     }
 
     private static void showFunction() {
+        Function<String, Integer> function = s -> s.length();
+        System.out.println("Function: " + function.apply("Moscow"));
 
+        BiFunction<String, String, Integer> biFunction = (s1, s2) -> s1.length() + s2.length();
+        System.out.println("BiFunction: " + biFunction.apply("William", "Shakespeare"));
+
+        BiFunction<String, String, String> biFunction2 = (s1, s2) -> s1.concat(s2);
+        System.out.println("BiFunction: " + biFunction2.apply("William", " Shakespeare"));
     }
 
     private static void showUnaryBinaryOperator() {
