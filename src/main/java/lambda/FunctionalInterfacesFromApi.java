@@ -15,7 +15,7 @@ import java.util.function.Predicate;
 import java.util.function.Supplier;
 import java.util.function.UnaryOperator;
 
-public class FunctionalInterfacesFromApi {
+class FunctionalInterfacesFromApi {
     public static void main(String[] args) {
         showPredicate();
         showSupplier();

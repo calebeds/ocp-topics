@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/lambda/FunctionalInterfacesFromApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lambda/FunctionalInterfacesFromApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/LambdaEffectivelyFinal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,15 +35,29 @@
   "keyToString": {
     "Application.FIFromApi.executor": "Run",
     "Application.FunctionalInterfacesFromApi.executor": "Run",
+    "Application.LambdaEffectivelyFinal.executor": "Run",
     "Application.TestPredicate.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FunctionalInterfacesFromApi">
+  <component name="RunManager" selected="Application.LambdaEffectivelyFinal">
     <configuration name="FunctionalInterfacesFromApi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lambda.FunctionalInterfacesFromApi" />
+      <module name="ocp-prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LambdaEffectivelyFinal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.LambdaEffectivelyFinal" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
@@ -70,6 +84,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LambdaEffectivelyFinal" />
         <item itemvalue="Application.FunctionalInterfacesFromApi" />
         <item itemvalue="Application.TestPredicate" />
       </list>
