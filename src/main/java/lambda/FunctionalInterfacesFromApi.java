@@ -8,10 +8,12 @@ import java.util.Map;
 import java.util.function.BiConsumer;
 import java.util.function.BiFunction;
 import java.util.function.BiPredicate;
+import java.util.function.BinaryOperator;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
+import java.util.function.UnaryOperator;
 
 public class FunctionalInterfacesFromApi {
     public static void main(String[] args) {
@@ -73,6 +75,10 @@ public class FunctionalInterfacesFromApi {
     }
 
     private static void showUnaryBinaryOperator() {
+        UnaryOperator<String> unaryOperator = name -> "My name is " + name;
+        System.out.println("UnaryOperator: " + unaryOperator.apply("Calebe"));
 
+        BinaryOperator<String> binaryOperator = (s1, s2) -> s1.concat(s2);
+        System.out.println("BinaryOperator: " + binaryOperator.apply("William", " Shakespeare"));
     }
 }

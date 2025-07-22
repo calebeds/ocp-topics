@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/lambda/FIFromApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lambda/FIFromApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lambda/FunctionalInterfacesFromApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lambda/FunctionalInterfacesFromApi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,15 +34,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.FIFromApi.executor": "Run",
+    "Application.FunctionalInterfacesFromApi.executor": "Run",
     "Application.TestPredicate.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FIFromApi">
-    <configuration name="FIFromApi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.FIFromApi" />
+  <component name="RunManager" selected="Application.FunctionalInterfacesFromApi">
+    <configuration name="FunctionalInterfacesFromApi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.FunctionalInterfacesFromApi" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
@@ -69,7 +70,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FIFromApi" />
+        <item itemvalue="Application.FunctionalInterfacesFromApi" />
         <item itemvalue="Application.TestPredicate" />
       </list>
     </recent_temporary>
