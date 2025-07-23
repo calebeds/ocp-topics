@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lambda/MethodReferenceTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lambda/MethodReferenceTypes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,18 +31,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.FIFromApi.executor": "Run",
-    "Application.FunctionalInterfacesFromApi.executor": "Run",
-    "Application.LambdaEffectivelyFinal.executor": "Run",
-    "Application.MethodReferenceTypes.executor": "Run",
-    "Application.TestPredicate.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.FIFromApi.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FunctionalInterfacesFromApi.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LambdaEffectivelyFinal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodReferenceTypes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestPredicate.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.MethodReferenceTypes">
     <configuration name="FunctionalInterfacesFromApi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lambda.FunctionalInterfacesFromApi" />
