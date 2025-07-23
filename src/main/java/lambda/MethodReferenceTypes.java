@@ -1,5 +1,6 @@
 package lambda;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
@@ -14,6 +15,7 @@ public class MethodReferenceTypes {
         showBoundMethodReferences();
         showUnboundMethodReferences();
         showStaticMethodReferences();
+        showConstructorMethodReferences();
     }
 
     private static void showBoundMethodReferences() {
@@ -59,4 +61,29 @@ public class MethodReferenceTypes {
         sortMethodReference.accept(listOfNumbers);
         System.out.println("Sorted method reference: " + listOfNumbers);
     }
+
+    private static void showConstructorMethodReferences() {
+        Supplier<StringBuilder> supplierLambda = () -> new StringBuilder();
+        Supplier<StringBuilder> supplierMethodReference = StringBuilder::new;
+
+        StringBuilder stringBuilder = supplierLambda.get();
+        stringBuilder.append("lambda version");
+        System.out.println(stringBuilder);
+
+        StringBuilder stringBuilder2 = supplierMethodReference.get();
+        stringBuilder2.append("method reference version");
+        System.out.println(stringBuilder2);
+
+
+        Function<Integer, List<String>> functionLambda = x -> new ArrayList<>(x);
+        Function<Integer, List<String>> functionMethodReference = ArrayList::new;
+        List<String> list = functionLambda.apply(10);
+        list.add("21");
+        System.out.println(list);
+
+        List<String> list2 = functionLambda.apply(5);
+        list2.add("9");
+        System.out.println(list2);
+    }
+
 }
