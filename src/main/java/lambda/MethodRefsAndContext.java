@@ -4,7 +4,7 @@ import java.util.function.BiFunction;
 import java.util.function.Function;
 import java.util.function.Supplier;
 
-public class MethodRefsAndContext {
+class MethodRefsAndContext {
     public static void main(String[] args) {
         // No person being passed in => Supplier
         Supplier<Integer> lambda1 = () -> Person.howMany();

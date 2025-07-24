@@ -10,7 +10,7 @@ import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
 
-public class MethodReferenceTypes {
+class MethodReferenceTypes {
     public static void main(String[] args) {
         showBoundMethodReferences();
         showUnboundMethodReferences();

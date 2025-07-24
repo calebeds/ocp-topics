@@ -1,0 +1,34 @@
+package lambda.assignment;
+
+class Person {
+    private final Integer age;
+    private final String name;
+    private final Double height;
+
+    public Person(String name, Integer age, Double height) {
+        this.age = age;
+        this.name = name;
+        this.height = height;
+    }
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public Double getHeight() {
+        return height;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "age=" + age +
+                ", name='" + name + '\'' +
+                ", height=" + height +
+                '}';
+    }
+}

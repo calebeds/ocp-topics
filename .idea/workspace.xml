@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/MethodRefsAndContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/assignment/Assignment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/assignment/Evaluate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/assignment/Functionable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/assignment/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/assignment/Printable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/assignment/Retrievable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lambda/MethodReferenceTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lambda/MethodReferenceTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lambda/MethodRefsAndContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lambda/MethodRefsAndContext.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -33,6 +42,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Assignment.executor": "Run",
     "Application.FIFromApi.executor": "Run",
     "Application.FunctionalInterfacesFromApi.executor": "Run",
     "Application.LambdaEffectivelyFinal.executor": "Run",
@@ -44,13 +54,26 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MethodRefsAndContext">
+  <component name="RunManager" selected="Application.Assignment">
+    <configuration name="Assignment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.assignment.Assignment" />
+      <module name="ocp-prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.assignment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FunctionalInterfacesFromApi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lambda.FunctionalInterfacesFromApi" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.*" />
+          <option name="PATTERN" value="lambda.assignment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,7 +86,7 @@
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.*" />
+          <option name="PATTERN" value="lambda.assignment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,7 +99,7 @@
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.*" />
+          <option name="PATTERN" value="lambda.assignment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,20 +112,7 @@
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestPredicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.TestPredicate" />
-      <module name="ocp-prep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambda.*" />
+          <option name="PATTERN" value="lambda.assignment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Assignment" />
         <item itemvalue="Application.MethodRefsAndContext" />
         <item itemvalue="Application.MethodReferenceTypes" />
         <item itemvalue="Application.LambdaEffectivelyFinal" />
         <item itemvalue="Application.FunctionalInterfacesFromApi" />
-        <item itemvalue="Application.TestPredicate" />
       </list>
     </recent_temporary>
   </component>
