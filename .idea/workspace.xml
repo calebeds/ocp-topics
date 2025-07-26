@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/assignment2/Assignment2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,27 +30,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Assignment.executor": "Run",
-    "Application.Assignment2.executor": "Run",
-    "Application.FIFromApi.executor": "Run",
-    "Application.FunctionalInterfacesFromApi.executor": "Run",
-    "Application.LambdaEffectivelyFinal.executor": "Run",
-    "Application.MethodReferenceTypes.executor": "Run",
-    "Application.MethodRefsAndContext.executor": "Run",
-    "Application.TestPredicate.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Assignment.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Assignment2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FIFromApi.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FunctionalInterfacesFromApi.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LambdaEffectivelyFinal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodReferenceTypes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodRefsAndContext.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestPredicate.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="lambda.assignment" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Assignment2">
+  <component name="RunManager" selected="Application.StreamLaziness">
     <configuration name="Assignment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lambda.assignment.Assignment" />
       <module name="ocp-prep" />
@@ -73,19 +70,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lambda.assignment2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LambdaEffectivelyFinal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.LambdaEffectivelyFinal" />
-      <module name="ocp-prep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambda.assignment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,13 +103,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamLaziness" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.StreamLaziness" />
+      <module name="ocp-prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamLaziness" />
         <item itemvalue="Application.Assignment2" />
         <item itemvalue="Application.Assignment" />
         <item itemvalue="Application.MethodRefsAndContext" />
         <item itemvalue="Application.MethodReferenceTypes" />
-        <item itemvalue="Application.LambdaEffectivelyFinal" />
       </list>
     </recent_temporary>
   </component>
