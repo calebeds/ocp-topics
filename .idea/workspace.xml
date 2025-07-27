@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/streams/CreatingStreams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/streams/TerminalOperations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/streams/StreamLaziness.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/streams/StreamLaziness.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +44,7 @@
     "Application.MethodReferenceTypes.executor": "Run",
     "Application.MethodRefsAndContext.executor": "Run",
     "Application.StreamLaziness.executor": "Run",
+    "Application.TerminalOperations.executor": "Run",
     "Application.TestPredicate.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -56,7 +56,7 @@
       <recent name="lambda.assignment" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CreatingStreams">
+  <component name="RunManager" selected="Application.TerminalOperations">
     <configuration name="Assignment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lambda.assignment.Assignment" />
       <module name="ocp-prep" />
@@ -96,19 +96,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodRefsAndContext" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.MethodRefsAndContext" />
-      <module name="ocp-prep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambda.assignment.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StreamLaziness" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="streams.StreamLaziness" />
       <module name="ocp-prep" />
@@ -122,13 +109,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TerminalOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.TerminalOperations" />
+      <module name="ocp-prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TerminalOperations" />
         <item itemvalue="Application.CreatingStreams" />
         <item itemvalue="Application.StreamLaziness" />
         <item itemvalue="Application.Assignment2" />
         <item itemvalue="Application.Assignment" />
-        <item itemvalue="Application.MethodRefsAndContext" />
       </list>
     </recent_temporary>
   </component>
@@ -142,5 +142,20 @@
       <updated>1753017927984</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/streams/TerminalOperations.java</url>
+          <line>8</line>
+          <properties class="streams.TerminalOperations" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
