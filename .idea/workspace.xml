@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/streams/PrimitiveStreams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/streams/ParallelStreams.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +43,7 @@
     "Application.LambdaEffectivelyFinal.executor": "Run",
     "Application.MethodReferenceTypes.executor": "Run",
     "Application.MethodRefsAndContext.executor": "Run",
+    "Application.ParallelStreams.executor": "Run",
     "Application.PrimitiveStreams.executor": "Run",
     "Application.StreamLaziness.executor": "Run",
     "Application.TerminalOperations.executor": "Run",
@@ -59,7 +59,7 @@
       <recent name="lambda.assignment" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrimitiveStreams">
+  <component name="RunManager" selected="Application.ParallelStreams">
     <configuration name="CreatingStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="streams.CreatingStreams" />
       <module name="ocp-prep" />
@@ -86,8 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimitiveStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streams.PrimitiveStreams" />
+    <configuration name="ParallelStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.ParallelStreams" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
@@ -99,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamLaziness" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streams.StreamLaziness" />
+    <configuration name="PrimitiveStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.PrimitiveStreams" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
@@ -127,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ParallelStreams" />
         <item itemvalue="Application.PrimitiveStreams" />
         <item itemvalue="Application.IntermediateOperations" />
         <item itemvalue="Application.TerminalOperations" />
         <item itemvalue="Application.CreatingStreams" />
-        <item itemvalue="Application.StreamLaziness" />
       </list>
     </recent_temporary>
   </component>
