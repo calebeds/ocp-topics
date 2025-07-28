@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/streams/IntermediateOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/streams/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/streams/PrimitiveStreams.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +44,7 @@
     "Application.LambdaEffectivelyFinal.executor": "Run",
     "Application.MethodReferenceTypes.executor": "Run",
     "Application.MethodRefsAndContext.executor": "Run",
+    "Application.PrimitiveStreams.executor": "Run",
     "Application.StreamLaziness.executor": "Run",
     "Application.TerminalOperations.executor": "Run",
     "Application.TestPredicate.executor": "Run",
@@ -59,20 +59,7 @@
       <recent name="lambda.assignment" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IntermediateOperations">
-    <configuration name="Assignment2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.assignment2.Assignment2" />
-      <module name="ocp-prep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambda.assignment2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PrimitiveStreams">
     <configuration name="CreatingStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="streams.CreatingStreams" />
       <module name="ocp-prep" />
@@ -88,6 +75,19 @@
     </configuration>
     <configuration name="IntermediateOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="streams.IntermediateOperations" />
+      <module name="ocp-prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrimitiveStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.PrimitiveStreams" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
@@ -127,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrimitiveStreams" />
         <item itemvalue="Application.IntermediateOperations" />
         <item itemvalue="Application.TerminalOperations" />
         <item itemvalue="Application.CreatingStreams" />
         <item itemvalue="Application.StreamLaziness" />
-        <item itemvalue="Application.Assignment2" />
       </list>
     </recent_temporary>
   </component>
