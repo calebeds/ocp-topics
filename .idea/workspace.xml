@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/streams/ParallelStreams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/CommonCollectionMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +37,7 @@
   "keyToString": {
     "Application.Assignment.executor": "Run",
     "Application.Assignment2.executor": "Run",
+    "Application.CommonCollectionMethods.executor": "Run",
     "Application.CreatingStreams.executor": "Run",
     "Application.FIFromApi.executor": "Run",
     "Application.FunctionalInterfacesFromApi.executor": "Run",
@@ -59,13 +61,13 @@
       <recent name="lambda.assignment" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ParallelStreams">
-    <configuration name="CreatingStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streams.CreatingStreams" />
+  <component name="RunManager" selected="Application.CommonCollectionMethods">
+    <configuration name="CommonCollectionMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.CommonCollectionMethods" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="streams.*" />
+          <option name="PATTERN" value="collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CommonCollectionMethods" />
         <item itemvalue="Application.ParallelStreams" />
         <item itemvalue="Application.PrimitiveStreams" />
         <item itemvalue="Application.IntermediateOperations" />
         <item itemvalue="Application.TerminalOperations" />
-        <item itemvalue="Application.CreatingStreams" />
       </list>
     </recent_temporary>
   </component>
