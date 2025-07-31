@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/UseLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/UseSets.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +55,7 @@
     "Application.TerminalOperations.executor": "Run",
     "Application.TestPredicate.executor": "Run",
     "Application.UseLists.executor": "Run",
+    "Application.UseSets.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -66,26 +68,13 @@
       <recent name="lambda.assignment" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UseLists">
+  <component name="RunManager" selected="Application.UseSets">
     <configuration name="CommonCollectionMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collections.CommonCollectionMethods" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IntermediateOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streams.IntermediateOperations" />
-      <module name="ocp-prep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,13 +121,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UseSets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.UseSets" />
+      <module name="ocp-prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UseSets" />
         <item itemvalue="Application.UseLists" />
         <item itemvalue="Application.CommonCollectionMethods" />
         <item itemvalue="Application.ParallelStreams" />
         <item itemvalue="Application.PrimitiveStreams" />
-        <item itemvalue="Application.IntermediateOperations" />
       </list>
     </recent_temporary>
   </component>
