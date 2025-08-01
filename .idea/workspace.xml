@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/Contact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/UseSets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/UseMaps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +54,7 @@
     "Application.TerminalOperations.executor": "Run",
     "Application.TestPredicate.executor": "Run",
     "Application.UseLists.executor": "Run",
+    "Application.UseMaps.executor": "Run",
     "Application.UseSets.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -68,7 +68,7 @@
       <recent name="lambda.assignment" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UseSets">
+  <component name="RunManager" selected="Application.UseMaps">
     <configuration name="CommonCollectionMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collections.CommonCollectionMethods" />
       <module name="ocp-prep" />
@@ -95,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimitiveStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streams.PrimitiveStreams" />
+    <configuration name="UseLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.UseLists" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="streams.*" />
+          <option name="PATTERN" value="collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,8 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.UseLists" />
+    <configuration name="UseMaps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.UseMaps" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
@@ -136,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UseMaps" />
         <item itemvalue="Application.UseSets" />
         <item itemvalue="Application.UseLists" />
         <item itemvalue="Application.CommonCollectionMethods" />
         <item itemvalue="Application.ParallelStreams" />
-        <item itemvalue="Application.PrimitiveStreams" />
       </list>
     </recent_temporary>
   </component>
@@ -154,5 +154,20 @@
       <updated>1753017927984</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/collections/UseSets.java</url>
+          <line>8</line>
+          <properties class="collections.UseSets" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
