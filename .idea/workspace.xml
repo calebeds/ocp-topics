@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/UseQueues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/TraversingCollections.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +53,7 @@
     "Application.StreamLaziness.executor": "Run",
     "Application.TerminalOperations.executor": "Run",
     "Application.TestPredicate.executor": "Run",
+    "Application.TraversingCollections.executor": "Run",
     "Application.UseLists.executor": "Run",
     "Application.UseMaps.executor": "Run",
     "Application.UseQueues.executor": "Run",
@@ -71,9 +71,9 @@
       <recent name="lambda.assignment" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UseQueues">
-    <configuration name="CommonCollectionMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.CommonCollectionMethods" />
+  <component name="RunManager" selected="Application.TraversingCollections">
+    <configuration name="TraversingCollections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.TraversingCollections" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
@@ -139,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TraversingCollections" />
         <item itemvalue="Application.UseQueues" />
         <item itemvalue="Application.UseSets" />
         <item itemvalue="Application.UseMaps" />
         <item itemvalue="Application.UseLists" />
-        <item itemvalue="Application.CommonCollectionMethods" />
       </list>
     </recent_temporary>
   </component>
