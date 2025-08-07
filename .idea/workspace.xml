@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/SortingDogs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/SortingProducts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/SortingProducts.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +52,8 @@
     "Application.ParallelStreams.executor": "Run",
     "Application.Persafdasf.executor": "Run",
     "Application.PrimitiveStreams.executor": "Run",
+    "Application.SortingDogs.executor": "Run",
+    "Application.SortingProducts.executor": "Run",
     "Application.StreamLaziness.executor": "Run",
     "Application.TerminalOperations.executor": "Run",
     "Application.TestPredicate.executor": "Run",
@@ -73,9 +75,22 @@
       <recent name="lambda.assignment" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortingProducts">
+  <component name="RunManager" selected="Application.SortingDogs">
     <configuration name="Persafdasf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collections.Persafdasf" />
+      <module name="ocp-prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortingDogs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.SortingDogs" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
@@ -126,26 +141,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseSets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.UseSets" />
-      <module name="ocp-prep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortingDogs" />
         <item itemvalue="Application.SortingProducts" />
         <item itemvalue="Application.Persafdasf" />
         <item itemvalue="Application.TraversingCollections" />
         <item itemvalue="Application.UseQueues" />
-        <item itemvalue="Application.UseSets" />
       </list>
     </recent_temporary>
   </component>
