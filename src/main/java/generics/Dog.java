@@ -1,0 +1,4 @@
+package generics;
+
+class Dog {
+}
