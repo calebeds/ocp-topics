@@ -8,7 +8,7 @@ class PolymorphicIssueWIthGenerics {
     public static void main(String[] args) {
         // The issue
         List<Double> doubles = new ArrayList<>();
-        doubles.add((12.3);
+        doubles.add(12.3);
 //        List<Object> objects = doubles; // COMPILER ERROR
 
         // A different variation

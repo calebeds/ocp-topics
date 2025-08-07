@@ -1,4 +1,0 @@
-package generics;
-
-class Dog {
-}

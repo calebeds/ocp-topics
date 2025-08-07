@@ -8,10 +8,6 @@ class UnboundedWildcard {
         List<String> names = new ArrayList<>();
         names.add("Sean");
         showList(names);
-
-        List<Dog> dogs = new ArrayList<>();
-        dogs.add(new Dog());
-        showList(dogs);
     }
 
 //    private static void showList(List<Object> list) {
