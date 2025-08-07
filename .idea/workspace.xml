@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/PolymorphicIssueWIthGenerics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generics/SuperAndExtends.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +58,7 @@
     "Application.SortingDogs.executor": "Run",
     "Application.SortingProducts.executor": "Run",
     "Application.StreamLaziness.executor": "Run",
+    "Application.SuperAndExtends.executor": "Run",
     "Application.TerminalOperations.executor": "Run",
     "Application.TestPredicate.executor": "Run",
     "Application.TraversingCollections.executor": "Run",
@@ -77,7 +79,7 @@
       <recent name="lambda.assignment" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PreGenerics">
+  <component name="RunManager" selected="Application.SuperAndExtends">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collections.binarysearch.BinarySearch" />
       <module name="ocp-prep" />
@@ -130,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortingDogs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.SortingDogs" />
+    <configuration name="SuperAndExtends" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.SuperAndExtends" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.*" />
+          <option name="PATTERN" value="generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SuperAndExtends" />
         <item itemvalue="Application.PreGenerics" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.ComparatorIsUseful" />
         <item itemvalue="Application.SortingCatsMultipleFields" />
-        <item itemvalue="Application.SortingDogs" />
       </list>
     </recent_temporary>
   </component>
