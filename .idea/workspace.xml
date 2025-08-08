@@ -44,6 +44,7 @@
     "Application.CommonCollectionMethods.executor": "Run",
     "Application.ComparatorIsUseful.executor": "Run",
     "Application.CreatingStreams.executor": "Run",
+    "Application.EqualsTest.executor": "Run",
     "Application.FIFromApi.executor": "Run",
     "Application.FunctionalInterfacesFromApi.executor": "Run",
     "Application.GenericMethods.executor": "Run",
@@ -71,6 +72,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/calebesantos/dev/projects/ocp-prep/src/main/java/equalsandhashcode",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
@@ -80,8 +82,11 @@
       <recent name="streams" />
       <recent name="lambda.assignment" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/equalsandhashcode" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.EqualsTest">
+  <component name="RunManager" selected="Application.HashCodeTest">
     <configuration name="AnimalRegister" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="generics.AnimalRegister" />
       <module name="ocp-prep" />
@@ -121,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SuperAndExtends" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.SuperAndExtends" />
+    <configuration name="HashCodeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="equalsandhashcode.HashCodeTest" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generics.*" />
+          <option name="PATTERN" value="equalsandhashcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashCodeTest" />
         <item itemvalue="Application.EqualsTest" />
         <item itemvalue="Application.GenericMethods" />
         <item itemvalue="Application.AnimalRegister" />
         <item itemvalue="Application.TestGenericClass" />
-        <item itemvalue="Application.SuperAndExtends" />
       </list>
     </recent_temporary>
   </component>
