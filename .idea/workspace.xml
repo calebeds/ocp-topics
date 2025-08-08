@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/GenericMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +46,7 @@
     "Application.CreatingStreams.executor": "Run",
     "Application.FIFromApi.executor": "Run",
     "Application.FunctionalInterfacesFromApi.executor": "Run",
+    "Application.GenericMethods.executor": "Run",
     "Application.IntermediateOperations.executor": "Run",
     "Application.LambdaEffectivelyFinal.executor": "Run",
     "Application.MethodReferenceTypes.executor": "Run",
@@ -80,7 +81,7 @@
       <recent name="lambda.assignment" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GenericMethods">
+  <component name="RunManager" selected="Application.EqualsTest">
     <configuration name="AnimalRegister" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="generics.AnimalRegister" />
       <module name="ocp-prep" />
@@ -94,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.GenericMethods" />
+    <configuration name="EqualsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="equalsandhashcode.EqualsTest" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generics.*" />
+          <option name="PATTERN" value="equalsandhashcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,8 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PreGenerics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.PreGenerics" />
+    <configuration name="GenericMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.GenericMethods" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
@@ -148,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EqualsTest" />
         <item itemvalue="Application.GenericMethods" />
         <item itemvalue="Application.AnimalRegister" />
         <item itemvalue="Application.TestGenericClass" />
         <item itemvalue="Application.SuperAndExtends" />
-        <item itemvalue="Application.PreGenerics" />
       </list>
     </recent_temporary>
   </component>
