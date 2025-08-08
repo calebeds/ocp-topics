@@ -79,13 +79,13 @@
       <recent name="lambda.assignment" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestGenericClass">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.binarysearch.BinarySearch" />
+  <component name="RunManager" selected="Application.AnimalRegister">
+    <configuration name="AnimalRegister" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.AnimalRegister" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.binarysearch.*" />
+          <option name="PATTERN" value="generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComparatorIsUseful" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.ComparatorIsUseful" />
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.binarysearch.BinarySearch" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.*" />
+          <option name="PATTERN" value="collections.binarysearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnimalRegister" />
         <item itemvalue="Application.TestGenericClass" />
         <item itemvalue="Application.SuperAndExtends" />
         <item itemvalue="Application.PreGenerics" />
         <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.ComparatorIsUseful" />
       </list>
     </recent_temporary>
   </component>
