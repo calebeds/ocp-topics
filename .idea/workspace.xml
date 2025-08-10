@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/equalsandhashcode/MutableFields.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/MapsToMaps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +53,7 @@
     "Application.HashCodeTest.executor": "Run",
     "Application.IntermediateOperations.executor": "Run",
     "Application.LambdaEffectivelyFinal.executor": "Run",
+    "Application.MapsToMaps.executor": "Run",
     "Application.MethodReferenceTypes.executor": "Run",
     "Application.MethodRefsAndContext.executor": "Run",
     "Application.MutableFields.executor": "Run",
@@ -90,7 +91,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/equalsandhashcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MutableFields">
+  <component name="RunManager" selected="Application.MapsToMaps">
     <configuration name="ContactTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="equalsandhashcode.ContactTest" />
       <module name="ocp-prep" />
@@ -117,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.GenericMethods" />
+    <configuration name="HashCodeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="equalsandhashcode.HashCodeTest" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generics.*" />
+          <option name="PATTERN" value="equalsandhashcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashCodeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="equalsandhashcode.HashCodeTest" />
+    <configuration name="MapsToMaps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.MapsToMaps" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="equalsandhashcode.*" />
+          <option name="PATTERN" value="collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapsToMaps" />
         <item itemvalue="Application.MutableFields" />
         <item itemvalue="Application.ContactTest" />
         <item itemvalue="Application.HashCodeTest" />
         <item itemvalue="Application.EqualsTest" />
-        <item itemvalue="Application.GenericMethods" />
       </list>
     </recent_temporary>
   </component>
