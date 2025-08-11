@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/executorservice/RunnableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/executorservice/SubmitTasksWithCollections.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +42,7 @@
     "Application.Assignment.executor": "Run",
     "Application.Assignment2.executor": "Run",
     "Application.BinarySearch.executor": "Run",
+    "Application.CallableTest.executor": "Run",
     "Application.CommonCollectionMethods.executor": "Run",
     "Application.ComparatorIsUseful.executor": "Run",
     "Application.ContactTest.executor": "Run",
@@ -66,6 +67,7 @@
     "Application.SortingDogs.executor": "Run",
     "Application.SortingProducts.executor": "Run",
     "Application.StreamLaziness.executor": "Run",
+    "Application.SubmitTasksWithCollections.executor": "Run",
     "Application.SuperAndExtends.executor": "Run",
     "Application.TerminalOperations.executor": "Run",
     "Application.TestGenericClass.executor": "Run",
@@ -93,7 +95,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/equalsandhashcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CallableTest">
+  <component name="RunManager" selected="Application.SubmitTasksWithCollections">
     <configuration name="CallableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="concurrency.executorservice.CallableTest" />
       <module name="ocp-prep" />
@@ -120,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MutableFields" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="equalsandhashcode.MutableFields" />
+    <configuration name="RunnableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrency.executorservice.RunnableTest" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="equalsandhashcode.*" />
+          <option name="PATTERN" value="concurrency.executorservice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,8 +135,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunnableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrency.executorservice.RunnableTest" />
+    <configuration name="SubmitTasksWithCollections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrency.executorservice.SubmitTasksWithCollections" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
@@ -161,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SubmitTasksWithCollections" />
         <item itemvalue="Application.CallableTest" />
         <item itemvalue="Application.RunnableTest" />
         <item itemvalue="Application.TimeBomb" />
         <item itemvalue="Application.MapsToMaps" />
-        <item itemvalue="Application.MutableFields" />
       </list>
     </recent_temporary>
   </component>
