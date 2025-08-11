@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/MapsToMaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/executorservice/RunnableTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +61,7 @@
     "Application.Persafdasf.executor": "Run",
     "Application.PreGenerics.executor": "Run",
     "Application.PrimitiveStreams.executor": "Run",
+    "Application.RunnableTest.executor": "Run",
     "Application.SortingCatsMultipleFields.executor": "Run",
     "Application.SortingDogs.executor": "Run",
     "Application.SortingProducts.executor": "Run",
@@ -69,6 +70,7 @@
     "Application.TerminalOperations.executor": "Run",
     "Application.TestGenericClass.executor": "Run",
     "Application.TestPredicate.executor": "Run",
+    "Application.TimeBomb.executor": "Run",
     "Application.TraversingCollections.executor": "Run",
     "Application.UseLists.executor": "Run",
     "Application.UseMaps.executor": "Run",
@@ -91,35 +93,9 @@
       <recent name="$PROJECT_DIR$/src/main/java/equalsandhashcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MapsToMaps">
+  <component name="RunManager" selected="Application.RunnableTest">
     <configuration name="ContactTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="equalsandhashcode.ContactTest" />
-      <module name="ocp-prep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="equalsandhashcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EqualsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="equalsandhashcode.EqualsTest" />
-      <module name="ocp-prep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="equalsandhashcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HashCodeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="equalsandhashcode.HashCodeTest" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
@@ -157,13 +133,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RunnableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrency.executorservice.RunnableTest" />
+      <module name="ocp-prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="concurrency.executorservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeBomb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrency.threadcreation.TimeBomb" />
+      <module name="ocp-prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="concurrency.threadcreation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RunnableTest" />
+        <item itemvalue="Application.TimeBomb" />
         <item itemvalue="Application.MapsToMaps" />
         <item itemvalue="Application.MutableFields" />
         <item itemvalue="Application.ContactTest" />
-        <item itemvalue="Application.HashCodeTest" />
-        <item itemvalue="Application.EqualsTest" />
       </list>
     </recent_temporary>
   </component>
