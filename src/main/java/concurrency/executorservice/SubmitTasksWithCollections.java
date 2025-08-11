@@ -44,6 +44,10 @@ class SubmitTasksWithCollections {
             }
         } catch (InterruptedException | ExecutionException e) {
             throw new RuntimeException(e);
+        } finally {
+            executorService.shutdown();
         }
+        System.out.println("Always at the end!");
+
     }
 }
