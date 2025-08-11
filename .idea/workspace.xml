@@ -93,13 +93,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/equalsandhashcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RunnableTest">
-    <configuration name="ContactTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="equalsandhashcode.ContactTest" />
+  <component name="RunManager" selected="Application.CallableTest">
+    <configuration name="CallableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrency.executorservice.CallableTest" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="equalsandhashcode.*" />
+          <option name="PATTERN" value="concurrency.executorservice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CallableTest" />
         <item itemvalue="Application.RunnableTest" />
         <item itemvalue="Application.TimeBomb" />
         <item itemvalue="Application.MapsToMaps" />
         <item itemvalue="Application.MutableFields" />
-        <item itemvalue="Application.ContactTest" />
       </list>
     </recent_temporary>
   </component>
