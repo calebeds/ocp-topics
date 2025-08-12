@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/threadsafefy/AtomicIntegerExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/threadsafefy/FixDataRaceWithSynchronized.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +40,7 @@
     "Application.AnimalRegister.executor": "Run",
     "Application.Assignment.executor": "Run",
     "Application.Assignment2.executor": "Run",
+    "Application.AtomicIntegerExample.executor": "Run",
     "Application.BinarySearch.executor": "Run",
     "Application.CallableTest.executor": "Run",
     "Application.CommonCollectionMethods.executor": "Run",
@@ -49,6 +50,7 @@
     "Application.DataRace.executor": "Run",
     "Application.EqualsTest.executor": "Run",
     "Application.FIFromApi.executor": "Run",
+    "Application.FixDataRaceWithSynchronized.executor": "Run",
     "Application.FunctionalInterfacesFromApi.executor": "Run",
     "Application.GenericMethods.executor": "Run",
     "Application.HashCodeTest.executor": "Run",
@@ -96,7 +98,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/equalsandhashcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AtomicIntegerExample">
+  <component name="RunManager" selected="Application.FixDataRaceWithSynchronized">
     <configuration name="AtomicIntegerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="concurrency.threadsafefy.AtomicIntegerExample" />
       <module name="ocp-prep" />
@@ -110,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CallableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrency.executorservice.CallableTest" />
+    <configuration name="DataRace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrency.threadsafefy.DataRace" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrency.executorservice.*" />
+          <option name="PATTERN" value="concurrency.threadsafefy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,8 +125,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataRace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrency.threadsafefy.DataRace" />
+    <configuration name="FixDataRaceWithSynchronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrency.threadsafefy.FixDataRaceWithSynchronized" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
@@ -164,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FixDataRaceWithSynchronized" />
         <item itemvalue="Application.AtomicIntegerExample" />
         <item itemvalue="Application.DataRace" />
         <item itemvalue="Application.ScheduledExecutors" />
         <item itemvalue="Application.SubmitTasksWithCollections" />
-        <item itemvalue="Application.CallableTest" />
       </list>
     </recent_temporary>
   </component>
@@ -194,6 +196,11 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/concurrency/threadsafefy/AtomicIntegerExample.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
