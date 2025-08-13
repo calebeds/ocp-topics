@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/concurrentcollections/CopyOnWriteCollections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/concurrentcollections/BlockingQueueExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +42,7 @@
     "Application.Assignment2.executor": "Run",
     "Application.AtomicIntegerExample.executor": "Run",
     "Application.BinarySearch.executor": "Run",
+    "Application.BlockingQueueExample.executor": "Run",
     "Application.CallableTest.executor": "Run",
     "Application.CommonCollectionMethods.executor": "Run",
     "Application.ComparatorIsUseful.executor": "Run",
@@ -101,13 +102,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/equalsandhashcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CopyOnWriteCollections">
-    <configuration name="AtomicIntegerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrency.threadsafefy.AtomicIntegerExample" />
+  <component name="RunManager" selected="Application.BlockingQueueExample">
+    <configuration name="BlockingQueueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrency.concurrentcollections.BlockingQueueExample" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrency.threadsafefy.*" />
+          <option name="PATTERN" value="concurrency.concurrentcollections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BlockingQueueExample" />
         <item itemvalue="Application.CopyOnWriteCollections" />
         <item itemvalue="Application.SkipListCollections" />
         <item itemvalue="Application.FIxDataRaceWithLock" />
         <item itemvalue="Application.FixDataRaceWithSynchronized" />
-        <item itemvalue="Application.AtomicIntegerExample" />
       </list>
     </recent_temporary>
   </component>
