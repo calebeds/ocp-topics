@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/threadsafefy/FIxDataRaceWithLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/concurrentcollections/SkipListCollections.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +67,7 @@
     "Application.PrimitiveStreams.executor": "Run",
     "Application.RunnableTest.executor": "Run",
     "Application.ScheduledExecutors.executor": "Run",
+    "Application.SkipListCollections.executor": "Run",
     "Application.SortingCatsMultipleFields.executor": "Run",
     "Application.SortingDogs.executor": "Run",
     "Application.SortingProducts.executor": "Run",
@@ -99,7 +100,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/equalsandhashcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FIxDataRaceWithLock">
+  <component name="RunManager" selected="Application.SkipListCollections">
     <configuration name="AtomicIntegerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="concurrency.threadsafefy.AtomicIntegerExample" />
       <module name="ocp-prep" />
@@ -152,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScheduledExecutors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrency.executorservice.ScheduledExecutors" />
+    <configuration name="SkipListCollections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrency.concurrentcollections.SkipListCollections" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrency.executorservice.*" />
+          <option name="PATTERN" value="concurrency.concurrentcollections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SkipListCollections" />
         <item itemvalue="Application.FIxDataRaceWithLock" />
         <item itemvalue="Application.FixDataRaceWithSynchronized" />
         <item itemvalue="Application.AtomicIntegerExample" />
         <item itemvalue="Application.DataRace" />
-        <item itemvalue="Application.ScheduledExecutors" />
       </list>
     </recent_temporary>
   </component>
