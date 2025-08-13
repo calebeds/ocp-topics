@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/threadsafefy/FixDataRaceWithSynchronized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/threadsafefy/FIxDataRaceWithLock.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +50,7 @@
     "Application.DataRace.executor": "Run",
     "Application.EqualsTest.executor": "Run",
     "Application.FIFromApi.executor": "Run",
+    "Application.FIxDataRaceWithLock.executor": "Run",
     "Application.FixDataRaceWithSynchronized.executor": "Run",
     "Application.FunctionalInterfacesFromApi.executor": "Run",
     "Application.GenericMethods.executor": "Run",
@@ -98,7 +99,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/equalsandhashcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FixDataRaceWithSynchronized">
+  <component name="RunManager" selected="Application.FIxDataRaceWithLock">
     <configuration name="AtomicIntegerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="concurrency.threadsafefy.AtomicIntegerExample" />
       <module name="ocp-prep" />
@@ -114,6 +115,19 @@
     </configuration>
     <configuration name="DataRace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="concurrency.threadsafefy.DataRace" />
+      <module name="ocp-prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="concurrency.threadsafefy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FIxDataRaceWithLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrency.threadsafefy.FIxDataRaceWithLock" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
@@ -151,26 +165,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubmitTasksWithCollections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrency.executorservice.SubmitTasksWithCollections" />
-      <module name="ocp-prep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="concurrency.executorservice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FIxDataRaceWithLock" />
         <item itemvalue="Application.FixDataRaceWithSynchronized" />
         <item itemvalue="Application.AtomicIntegerExample" />
         <item itemvalue="Application.DataRace" />
         <item itemvalue="Application.ScheduledExecutors" />
-        <item itemvalue="Application.SubmitTasksWithCollections" />
       </list>
     </recent_temporary>
   </component>
