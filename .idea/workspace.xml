@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/concurrentcollections/BlockingQueueExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/threadingproblems/RaceCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +68,7 @@
     "Application.Persafdasf.executor": "Run",
     "Application.PreGenerics.executor": "Run",
     "Application.PrimitiveStreams.executor": "Run",
+    "Application.RaceCondition.executor": "Run",
     "Application.RunnableTest.executor": "Run",
     "Application.ScheduledExecutors.executor": "Run",
     "Application.SkipListCollections.executor": "Run",
@@ -102,7 +104,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/equalsandhashcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BlockingQueueExample">
+  <component name="RunManager" selected="Application.RaceCondition">
     <configuration name="BlockingQueueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="concurrency.concurrentcollections.BlockingQueueExample" />
       <module name="ocp-prep" />
@@ -142,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FixDataRaceWithSynchronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrency.threadsafefy.FixDataRaceWithSynchronized" />
+    <configuration name="RaceCondition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrency.threadingproblems.RaceCondition" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrency.threadsafefy.*" />
+          <option name="PATTERN" value="concurrency.threadingproblems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RaceCondition" />
         <item itemvalue="Application.BlockingQueueExample" />
         <item itemvalue="Application.CopyOnWriteCollections" />
         <item itemvalue="Application.SkipListCollections" />
         <item itemvalue="Application.FIxDataRaceWithLock" />
-        <item itemvalue="Application.FixDataRaceWithSynchronized" />
       </list>
     </recent_temporary>
   </component>
