@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/localization/DefaultLocale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/localization/CreatingLocales.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +49,7 @@
     "Application.ComparatorIsUseful.executor": "Run",
     "Application.ContactTest.executor": "Run",
     "Application.CopyOnWriteCollections.executor": "Run",
+    "Application.CreatingLocales.executor": "Run",
     "Application.CreatingStreams.executor": "Run",
     "Application.DataRace.executor": "Run",
     "Application.Deadlock.executor": "Run",
@@ -105,7 +107,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/equalsandhashcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DefaultLocale">
+  <component name="RunManager" selected="Application.CreatingLocales">
     <configuration name="BlockingQueueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="concurrency.concurrentcollections.BlockingQueueExample" />
       <module name="ocp-prep" />
@@ -119,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CopyOnWriteCollections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrency.concurrentcollections.CopyOnWriteCollections" />
+    <configuration name="CreatingLocales" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="localization.CreatingLocales" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrency.concurrentcollections.*" />
+          <option name="PATTERN" value="localization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CreatingLocales" />
         <item itemvalue="Application.DefaultLocale" />
         <item itemvalue="Application.Deadlock" />
         <item itemvalue="Application.RaceCondition" />
         <item itemvalue="Application.BlockingQueueExample" />
-        <item itemvalue="Application.CopyOnWriteCollections" />
       </list>
     </recent_temporary>
   </component>
