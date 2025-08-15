@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/localization/LocalizeDates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/localization/SetLocaleCategories.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +62,7 @@
     "Application.HashCodeTest.executor": "Run",
     "Application.IntermediateOperations.executor": "Run",
     "Application.LambdaEffectivelyFinal.executor": "Run",
+    "Application.LocalizeDates.executor": "Run",
     "Application.LocalizeNumbers.executor": "Run",
     "Application.MapsToMaps.executor": "Run",
     "Application.MethodReferenceTypes.executor": "Run",
@@ -74,6 +75,7 @@
     "Application.RaceCondition.executor": "Run",
     "Application.RunnableTest.executor": "Run",
     "Application.ScheduledExecutors.executor": "Run",
+    "Application.SetLocaleCategories.executor": "Run",
     "Application.SkipListCollections.executor": "Run",
     "Application.SortingCatsMultipleFields.executor": "Run",
     "Application.SortingDogs.executor": "Run",
@@ -107,26 +109,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/equalsandhashcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LocalizeDates">
+  <component name="RunManager" selected="Application.SetLocaleCategories">
     <configuration name="CreatingLocales" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="localization.CreatingLocales" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="localization.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Deadlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrency.threadingproblems.Deadlock" />
-      <module name="ocp-prep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="concurrency.threadingproblems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,13 +162,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SetLocaleCategories" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="localization.SetLocaleCategories" />
+      <module name="ocp-prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="localization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SetLocaleCategories" />
         <item itemvalue="Application.LocalizeDates" />
         <item itemvalue="Application.LocalizeNumbers" />
         <item itemvalue="Application.CreatingLocales" />
         <item itemvalue="Application.DefaultLocale" />
-        <item itemvalue="Application.Deadlock" />
       </list>
     </recent_temporary>
   </component>
