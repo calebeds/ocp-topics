@@ -5,13 +5,15 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 class BankService {
     private static Connection connection;
 
     public static void main(String[] args) {
         connect();
-        retrieveOne();
+//        retrieveOne();
         System.out.println();
         retrieveAll();
     }
@@ -31,11 +33,8 @@ class BankService {
     }
 
     static void retrieveOne() {
+        System.out.println("Retrieving branch code : \"123456\" and account number \"12345678\"");
         System.out.println(getAccountDetails("123456", "12345678"));
-    }
-
-    static void retrieveAll() {
-
     }
 
     private static BankAccount getAccountDetails(final String branchCode, final String accountNo) {
@@ -65,4 +64,41 @@ class BankService {
 
         return bankAccount;
     }
+
+    static void retrieveAll() {
+        System.out.println("Retrieving all accounts");
+        for(BankAccount bankAccount: getAllAccounts()) {
+            System.out.println(bankAccount);
+        }
+    }
+
+    private static List<BankAccount> getAllAccounts() {
+        List<BankAccount> bankAccounts = new ArrayList<>();
+
+        String selectSQL = "SELECT * FROM app.BANK_TABLE";
+
+        try(PreparedStatement preparedStatement = connection.prepareStatement(selectSQL)) {
+            boolean isResultSet = preparedStatement.execute();
+            if(isResultSet) {
+                ResultSet resultSet = preparedStatement.getResultSet();
+                while (resultSet.next()) {
+                    BankAccount bankAccount = new BankAccount(
+                            resultSet.getString("BRANCH_CODE"),
+                            resultSet.getString(2),// "ACCOUNT_NUMBER"
+                            resultSet.getString("CUST_NAME"),
+                            resultSet.getString("CUST_ADDRESS"),
+                            resultSet.getDouble("BALANCE"));
+                    bankAccounts.add(bankAccount);
+                }
+            } else {
+                System.out.println("Did an update!");
+            }
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+
+        return bankAccounts;
+    }
+
+
 }

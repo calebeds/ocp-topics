@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/jdbc/BankAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jdbc/BankService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jdbc/BankService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
