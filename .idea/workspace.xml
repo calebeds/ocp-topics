@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/localization/SetLocaleCategories.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jdbc/BankService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jdbc/BankService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Mill_en.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Mill_en.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Mill_en_CA.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Mill_en_CA.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +45,10 @@
     "Application.Assignment.executor": "Run",
     "Application.Assignment2.executor": "Run",
     "Application.AtomicIntegerExample.executor": "Run",
+    "Application.BankService.executor": "Run",
     "Application.BinarySearch.executor": "Run",
     "Application.BlockingQueueExample.executor": "Run",
+    "Application.BundleSearching.executor": "Run",
     "Application.CallableTest.executor": "Run",
     "Application.CommonCollectionMethods.executor": "Run",
     "Application.ComparatorIsUseful.executor": "Run",
@@ -95,7 +101,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/calebesantos/dev/projects/ocp-prep/src/main/java/equalsandhashcode",
+    "last_opened_file_path": "/home/calebesantos/dev/projects/ocp-prep/src/main/resources",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
@@ -106,16 +115,18 @@
       <recent name="lambda.assignment" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/localization" />
       <recent name="$PROJECT_DIR$/src/main/java/equalsandhashcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SetLocaleCategories">
-    <configuration name="CreatingLocales" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="localization.CreatingLocales" />
+  <component name="RunManager" selected="Application.BankService">
+    <configuration name="BankService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbc.BankService" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="localization.*" />
+          <option name="PATTERN" value="jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,8 +134,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DefaultLocale" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="localization.DefaultLocale" />
+    <configuration name="BundleSearching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="localization.BundleSearching" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
@@ -177,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BankService" />
+        <item itemvalue="Application.BundleSearching" />
         <item itemvalue="Application.SetLocaleCategories" />
         <item itemvalue="Application.LocalizeDates" />
         <item itemvalue="Application.LocalizeNumbers" />
-        <item itemvalue="Application.CreatingLocales" />
-        <item itemvalue="Application.DefaultLocale" />
       </list>
     </recent_temporary>
   </component>
