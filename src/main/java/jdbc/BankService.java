@@ -14,8 +14,9 @@ class BankService {
     public static void main(String[] args) {
         connect();
 //        retrieveOne();
-        System.out.println();
-        retrieveAll();
+//        retrieveAll();
+//        deleteOne();
+        deleteAll();
     }
 
     public static void connect() {
@@ -32,9 +33,32 @@ class BankService {
 //        }
     }
 
-    static void retrieveOne() {
+    private static void retrieveOne() {
         System.out.println("Retrieving branch code : \"123456\" and account number \"12345678\"");
         System.out.println(getAccountDetails("123456", "12345678"));
+    }
+
+    private static void retrieveAll() {
+        System.out.println("Retrieving all accounts");
+        for(BankAccount bankAccount: getAllAccounts()) {
+            System.out.println(bankAccount);
+        }
+    }
+
+    private static void deleteOne() {
+        System.out.println("Deleting record ---  branch code : \"123456\" and account number \"12345678\"");
+
+        int nRows = deleteBankAccount("123456", "12345678");
+        if(nRows == 1) {
+            System.out.println("Delete OK: " + nRows);
+        } else {
+            System.out.println("Delete error: " + nRows);
+        }
+    }
+
+    private static void deleteAll() {
+        System.out.println("Delete all records!");
+        deleteAllAccounts();
     }
 
     private static BankAccount getAccountDetails(final String branchCode, final String accountNo) {
@@ -65,12 +89,6 @@ class BankService {
         return bankAccount;
     }
 
-    static void retrieveAll() {
-        System.out.println("Retrieving all accounts");
-        for(BankAccount bankAccount: getAllAccounts()) {
-            System.out.println(bankAccount);
-        }
-    }
 
     private static List<BankAccount> getAllAccounts() {
         List<BankAccount> bankAccounts = new ArrayList<>();
@@ -100,5 +118,30 @@ class BankService {
         return bankAccounts;
     }
 
+    private static int deleteBankAccount(String branchCode, String accountNo) {
+        int nRows = -1;
+        String deleteSQL = "DELETE FROM app.BANK_TABLE where (BRANCH_CODE = ? AND ACCOUNT_NUMBER=?)";
+
+        try(PreparedStatement preparedStatement = connection.prepareStatement(deleteSQL)) {
+            preparedStatement.setString(1, branchCode);
+            preparedStatement.setString(2, accountNo);
+
+            nRows = preparedStatement.executeUpdate();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+
+        return nRows;
+    }
+
+    private static void deleteAllAccounts() {
+        final String deleteSQL = "DELETE FROM app.BANK_TABLE";
+
+        try(PreparedStatement preparedStatement = connection.prepareStatement(deleteSQL)) {
+            preparedStatement.executeUpdate();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
 
 }
