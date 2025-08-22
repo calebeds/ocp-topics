@@ -16,7 +16,8 @@ class BankService {
 //        retrieveOne();
 //        retrieveAll();
 //        deleteOne();
-        deleteAll();
+//        deleteAll();
+        add();
     }
 
     public static void connect() {
@@ -59,6 +60,16 @@ class BankService {
     private static void deleteAll() {
         System.out.println("Delete all records!");
         deleteAllAccounts();
+    }
+
+    private static void add() {
+        int nRows = addBankAccount(new BankAccount("99999", "888888888", "SK", "Dublin", 100));
+
+        if(nRows == 1) {
+            System.out.println("Add OK: " + nRows);
+        } else {
+            System.out.println("Add error: " + nRows);
+        }
     }
 
     private static BankAccount getAccountDetails(final String branchCode, final String accountNo) {
@@ -142,6 +153,23 @@ class BankService {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    private static int addBankAccount(BankAccount bankAccount) {
+        int nRows = -1;
+        final String insertSQL = "INSERT INTO app.BANK_TABLE (BRANCH_CODE, ACCOUNT_NUMBER, CUST_NAME, CUST_ADDRESS, BALANCE) VALUES (?,?,?,?,?)";
+        try(PreparedStatement ps = connection.prepareStatement(insertSQL)) {
+            ps.setString(1, bankAccount.getBranchCode());
+            ps.setString(2, bankAccount.getAccountNo());
+            ps.setString(3, bankAccount.getCustName());
+            ps.setString(4, bankAccount.getCustAddress());
+            ps.setDouble(5, bankAccount.getBalance());
+            nRows = ps.executeUpdate();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+
+        return nRows;
     }
 
 }
