@@ -17,7 +17,8 @@ class BankService {
 //        retrieveAll();
 //        deleteOne();
 //        deleteAll();
-        add();
+//        add();
+        update();
     }
 
     public static void connect() {
@@ -69,6 +70,23 @@ class BankService {
             System.out.println("Add OK: " + nRows);
         } else {
             System.out.println("Add error: " + nRows);
+        }
+    }
+
+    private static void update() {
+        BankAccount bankAccount = getAccountDetails("123456", "12345678");
+        System.out.println("Before Update: " + bankAccount);
+
+        bankAccount.setCustName("J. Bloggs");
+        bankAccount.setCustAddress("London");
+
+        int nRows = updateBankAccount(bankAccount);
+
+        if(nRows == 1) {
+            System.out.println("Update OK: " + nRows);
+            System.out.println("After Update: " + getAccountDetails("123456", "12345678"));
+        } else {
+            System.out.println("Update error: " + nRows);
         }
     }
 
@@ -172,4 +190,22 @@ class BankService {
         return nRows;
     }
 
+    private static int updateBankAccount(BankAccount bankAccount) {
+        int nRows = -1;
+        final String updateSQL = "UPDATE app.BANK_TABLE SET CUST_NAME = ?, CUST_ADDRESS = ?, BALANCE = ? WHERE BRANCH_CODE = ? AND ACCOUNT_NUMBER = ?";
+
+        try(PreparedStatement ps = connection.prepareStatement(updateSQL)) {
+            ps.setString(1, bankAccount.getCustName());
+            ps.setString(2, bankAccount.getCustAddress());
+            ps.setDouble(3, bankAccount.getBalance());
+            ps.setString(4, bankAccount.getBranchCode());
+            ps.setString(5, bankAccount.getAccountNo());
+
+            nRows = ps.executeUpdate();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+
+        return nRows;
+    }
 }
