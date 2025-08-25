@@ -6,6 +6,7 @@ import java.nio.file.Paths;
 class PathOperations {
     public static void main(String[] args) {
         getPathInfo(Paths.get("/users/me/documents/projects/thisproject/pom.xml"));
+        getPathInfo(Paths.get("abc/def/ghi"));
     }
 
     private static void getPathInfo(Path path) {
