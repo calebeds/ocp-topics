@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/javaio/PathGeneral.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaio/PathOperations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,6 +73,7 @@
     "Application.MutableFields.executor": "Run",
     "Application.ParallelStreams.executor": "Run",
     "Application.PathGeneral.executor": "Run",
+    "Application.PathOperations.executor": "Run",
     "Application.Persafdasf.executor": "Run",
     "Application.PreGenerics.executor": "Run",
     "Application.PrimitiveStreams.executor": "Run",
@@ -119,7 +120,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/equalsandhashcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PathGeneral">
+  <component name="RunManager" selected="Application.PathOperations">
     <configuration name="BankService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jdbc.BankService" />
       <module name="ocp-prep" />
@@ -159,6 +160,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PathOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaio.PathOperations" />
+      <module name="ocp-prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReadingWritingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaio.ReadingWritingExample" />
       <module name="ocp-prep" />
@@ -172,26 +186,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetLocaleCategories" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="localization.SetLocaleCategories" />
-      <module name="ocp-prep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="localization.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PathOperations" />
         <item itemvalue="Application.PathGeneral" />
         <item itemvalue="Application.ReadingWritingExample" />
         <item itemvalue="Application.BankService" />
         <item itemvalue="Application.BundleSearching" />
-        <item itemvalue="Application.SetLocaleCategories" />
       </list>
     </recent_temporary>
   </component>
