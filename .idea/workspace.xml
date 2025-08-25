@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/javaio/RelativizeExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaio/NormalizeExamples.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javaio/PathOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javaio/PathOperations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +71,7 @@
     "Application.MethodReferenceTypes.executor": "Run",
     "Application.MethodRefsAndContext.executor": "Run",
     "Application.MutableFields.executor": "Run",
+    "Application.NormalizeExamples.executor": "Run",
     "Application.ParallelStreams.executor": "Run",
     "Application.PathGeneral.executor": "Run",
     "Application.PathOperations.executor": "Run",
@@ -122,13 +122,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/equalsandhashcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RelativizeExamples">
-    <configuration name="BankService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jdbc.BankService" />
+  <component name="RunManager" selected="Application.NormalizeExamples">
+    <configuration name="NormalizeExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaio.NormalizeExamples" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jdbc.*" />
+          <option name="PATTERN" value="javaio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NormalizeExamples" />
         <item itemvalue="Application.RelativizeExamples" />
         <item itemvalue="Application.PathOperations" />
         <item itemvalue="Application.PathGeneral" />
         <item itemvalue="Application.ReadingWritingExample" />
-        <item itemvalue="Application.BankService" />
       </list>
     </recent_temporary>
   </component>
