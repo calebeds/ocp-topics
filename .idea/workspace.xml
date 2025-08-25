@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/javaio/ReadingWritingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaio/PathGeneral.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +72,7 @@
     "Application.MethodRefsAndContext.executor": "Run",
     "Application.MutableFields.executor": "Run",
     "Application.ParallelStreams.executor": "Run",
+    "Application.PathGeneral.executor": "Run",
     "Application.Persafdasf.executor": "Run",
     "Application.PreGenerics.executor": "Run",
     "Application.PrimitiveStreams.executor": "Run",
@@ -118,7 +119,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/equalsandhashcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReadingWritingExample">
+  <component name="RunManager" selected="Application.PathGeneral">
     <configuration name="BankService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jdbc.BankService" />
       <module name="ocp-prep" />
@@ -145,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocalizeDates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="localization.LocalizeDates" />
+    <configuration name="PathGeneral" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaio.PathGeneral" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="localization.*" />
+          <option name="PATTERN" value="javaio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PathGeneral" />
         <item itemvalue="Application.ReadingWritingExample" />
         <item itemvalue="Application.BankService" />
         <item itemvalue="Application.BundleSearching" />
         <item itemvalue="Application.SetLocaleCategories" />
-        <item itemvalue="Application.LocalizeDates" />
       </list>
     </recent_temporary>
   </component>
