@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="" />
+    <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/lvti/LocalVariableTypeInference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lvti/LocalVariableTypeInference.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +105,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/calebesantos/dev/projects/ocp-prep/src/main/resources",
+    "last_opened_file_path": "/home/calebesantos/dev/projects/ocp-prep/src/main/java/lvti",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -117,12 +119,13 @@
       <recent name="lambda.assignment" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/lvti" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/java/localization" />
       <recent name="$PROJECT_DIR$/src/main/java/equalsandhashcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AttributesView">
+  <component name="RunManager" selected="Application.PrivateInterfaceMethods">
     <configuration name="Attributes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaio.Attributes" />
       <module name="ocp-prep" />
@@ -162,12 +165,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RelativizeExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaio.RelativizeExamples" />
+    <configuration name="PrivateInterfaceMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="privateinterface.PrivateInterfaceMethods" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaio.*" />
+          <option name="PATTERN" value="privateinterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrivateInterfaceMethods" />
         <item itemvalue="Application.AttributesView" />
         <item itemvalue="Application.Attributes" />
         <item itemvalue="Application.ResolveExamples" />
         <item itemvalue="Application.NormalizeExamples" />
-        <item itemvalue="Application.RelativizeExamples" />
       </list>
     </recent_temporary>
   </component>
