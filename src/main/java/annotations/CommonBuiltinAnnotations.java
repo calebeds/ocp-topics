@@ -1,5 +1,6 @@
 package annotations;
 
+@FunctionalInterface
 interface Moveable {
     void move();
     boolean equals(Object o);
