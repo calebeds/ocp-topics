@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/java17assignment/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java17assignment/Faculty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java17assignment/LecturerRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java17assignment/University.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/patternmatchingswitch/PatternMatching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patternmatchingswitch/PatternMatching.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +134,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/equalsandhashcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.University">
+  <component name="RunManager" selected="Application.PatternMatching">
     <configuration name="PatternMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -216,10 +213,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PatternMatching" />
         <item itemvalue="Application.University" />
         <item itemvalue="Application.TextBlockTest" />
         <item itemvalue="Application.PatternMatchingSwitchExpressions" />
-        <item itemvalue="Application.PatternMatching" />
         <item itemvalue="Application.SwitchExpressions" />
       </list>
     </recent_temporary>
