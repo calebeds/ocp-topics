@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/textblocks/TextBlockTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java17assignment/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java17assignment/Faculty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java17assignment/LecturerRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java17assignment/University.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +107,7 @@
     "Application.TextBlockTest.executor": "Run",
     "Application.TimeBomb.executor": "Run",
     "Application.TraversingCollections.executor": "Run",
+    "Application.University.executor": "Run",
     "Application.UseLists.executor": "Run",
     "Application.UseMaps.executor": "Run",
     "Application.UseQueues.executor": "Run",
@@ -134,20 +137,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/equalsandhashcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TextBlockTest">
-    <configuration name="CarMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="records.CarMain" />
-      <module name="ocp-prep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="records.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.University">
     <configuration name="PatternMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -204,20 +194,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="University" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java17assignment.University" />
+      <module name="ocp-prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java17assignment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.PatternMatchingSwitchExpressions" />
       <item itemvalue="Application.TextBlockTest" />
+      <item itemvalue="Application.University" />
       <item itemvalue="Application.PatternMatching" />
-      <item itemvalue="Application.CarMain" />
       <item itemvalue="Application.SwitchExpressions" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.University" />
         <item itemvalue="Application.TextBlockTest" />
         <item itemvalue="Application.PatternMatchingSwitchExpressions" />
         <item itemvalue="Application.PatternMatching" />
         <item itemvalue="Application.SwitchExpressions" />
-        <item itemvalue="Application.CarMain" />
       </list>
     </recent_temporary>
   </component>
