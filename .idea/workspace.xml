@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patternmatchingswitch/PatternMatching.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patternmatchingswitch/PatternMatchingSwitchExpressions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patternmatchingswitch/SwitchExpressions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/textblocks/TextBlockTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +102,7 @@
     "Application.TerminalOperations.executor": "Run",
     "Application.TestGenericClass.executor": "Run",
     "Application.TestPredicate.executor": "Run",
+    "Application.TextBlockTest.executor": "Run",
     "Application.TimeBomb.executor": "Run",
     "Application.TraversingCollections.executor": "Run",
     "Application.UseLists.executor": "Run",
@@ -138,26 +134,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/equalsandhashcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PatternMatchingSwitchExpressions">
+  <component name="RunManager" selected="Application.TextBlockTest">
     <configuration name="CarMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="records.CarMain" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="records.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CommonBuiltinAnnotations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="annotations.CommonBuiltinAnnotations" />
-      <module name="ocp-prep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="annotations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,20 +191,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TextBlockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="textblocks.TextBlockTest" />
+      <module name="ocp-prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="textblocks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.PatternMatchingSwitchExpressions" />
+      <item itemvalue="Application.TextBlockTest" />
       <item itemvalue="Application.PatternMatching" />
       <item itemvalue="Application.CarMain" />
-      <item itemvalue="Application.CommonBuiltinAnnotations" />
       <item itemvalue="Application.SwitchExpressions" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TextBlockTest" />
         <item itemvalue="Application.PatternMatchingSwitchExpressions" />
         <item itemvalue="Application.PatternMatching" />
         <item itemvalue="Application.SwitchExpressions" />
         <item itemvalue="Application.CarMain" />
-        <item itemvalue="Application.CommonBuiltinAnnotations" />
       </list>
     </recent_temporary>
   </component>
@@ -258,15 +254,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/patternmatchingswitch/PatternMatchingSwitchExpressions.java</url>
-          <line>37</line>
-          <properties class="patternmatchingswitch.PatternMatchingSwitchExpressions" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/concurrency/threadsafefy/AtomicIntegerExample.java</url>
