@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/records/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/records/CarMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/records/CarRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patternmatchingswitch/PatternMatching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patternmatchingswitch/PatternMatchingSwitchExpressions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patternmatchingswitch/SwitchExpressions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +83,8 @@
     "Application.ParallelStreams.executor": "Run",
     "Application.PathGeneral.executor": "Run",
     "Application.PathOperations.executor": "Run",
+    "Application.PatternMatching.executor": "Run",
+    "Application.PatternMatchingSwitchExpressions.executor": "Run",
     "Application.Persafdasf.executor": "Run",
     "Application.PreGenerics.executor": "Run",
     "Application.PrimitiveStreams.executor": "Run",
@@ -98,6 +103,7 @@
     "Application.StreamLaziness.executor": "Run",
     "Application.SubmitTasksWithCollections.executor": "Run",
     "Application.SuperAndExtends.executor": "Run",
+    "Application.SwitchExpressions.executor": "Run",
     "Application.TerminalOperations.executor": "Run",
     "Application.TestGenericClass.executor": "Run",
     "Application.TestPredicate.executor": "Run",
@@ -107,14 +113,16 @@
     "Application.UseMaps.executor": "Run",
     "Application.UseQueues.executor": "Run",
     "Application.UseSets.executor": "Run",
+    "Maven.ocp-prep [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/calebesantos/dev/projects/ocp-prep/src/main/java/lvti",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -130,33 +138,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/equalsandhashcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CarMain">
-    <configuration name="Attributes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaio.Attributes" />
-      <module name="ocp-prep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javaio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AttributesView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaio.AttributesView" />
-      <module name="ocp-prep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javaio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PatternMatchingSwitchExpressions">
     <configuration name="CarMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="records.CarMain" />
       <module name="ocp-prep" />
@@ -183,12 +165,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrivateInterfaceMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="privateinterface.PrivateInterfaceMethods" />
+    <configuration name="PatternMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="patternmatchingswitch.PatternMatching" />
       <module name="ocp-prep" />
+      <option name="PROGRAM_PARAMETERS" value="--enable-preview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="privateinterface.*" />
+          <option name="PATTERN" value="patternmatchingswitch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,13 +181,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PatternMatchingSwitchExpressions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patternmatchingswitch.PatternMatchingSwitchExpressions" />
+      <module name="ocp-prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="patternmatchingswitch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwitchExpressions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patternmatchingswitch.SwitchExpressions" />
+      <module name="ocp-prep" />
+      <option name="PROGRAM_PARAMETERS" value="--enable-preview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="patternmatchingswitch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.PatternMatchingSwitchExpressions" />
+      <item itemvalue="Application.PatternMatching" />
+      <item itemvalue="Application.CarMain" />
+      <item itemvalue="Application.CommonBuiltinAnnotations" />
+      <item itemvalue="Application.SwitchExpressions" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PatternMatchingSwitchExpressions" />
+        <item itemvalue="Application.PatternMatching" />
+        <item itemvalue="Application.SwitchExpressions" />
         <item itemvalue="Application.CarMain" />
         <item itemvalue="Application.CommonBuiltinAnnotations" />
-        <item itemvalue="Application.PrivateInterfaceMethods" />
-        <item itemvalue="Application.AttributesView" />
-        <item itemvalue="Application.Attributes" />
       </list>
     </recent_temporary>
   </component>
@@ -239,6 +258,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/patternmatchingswitch/PatternMatchingSwitchExpressions.java</url>
+          <line>37</line>
+          <properties class="patternmatchingswitch.PatternMatchingSwitchExpressions" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/concurrency/threadsafefy/AtomicIntegerExample.java</url>
