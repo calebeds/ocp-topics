@@ -17,7 +17,7 @@ class MediaReader implements Classic {
 
 
 
-public class Q2_1722 {
+class Q2_1722 {
     public static void main(String[] args) {
         MediaReader mr = new MediaReader();
         mr.read();
