@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/questions/classdesign/HashCodeHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/questions/classdesign/Q2_1722.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/questions/classdesign/Q2_1722.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/questions/classdesign/Q2_1808.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +85,7 @@
     "Application.PrimitiveStreams.executor": "Run",
     "Application.PrivateInterfaceMethods.executor": "Run",
     "Application.Q2_1722.executor": "Run",
+    "Application.Q2_1808.executor": "Run",
     "Application.RaceCondition.executor": "Run",
     "Application.ReadingWritingExample.executor": "Run",
     "Application.RelativizeExamples.executor": "Run",
@@ -137,7 +137,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/equalsandhashcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HashCodeHashMap">
+  <component name="RunManager" selected="Application.Q2_1808">
     <configuration name="HashCodeHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="questions.classdesign.HashCodeHashMap" />
       <module name="ocp-prep" />
@@ -180,12 +180,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextBlockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="textblocks.TextBlockTest" />
+    <configuration name="Q2_1808" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.classdesign.Q2_1808" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="textblocks.*" />
+          <option name="PATTERN" value="questions.classdesign.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,17 +209,17 @@
     <list>
       <item itemvalue="Application.HashCodeHashMap" />
       <item itemvalue="Application.Q2_1722" />
-      <item itemvalue="Application.TextBlockTest" />
+      <item itemvalue="Application.Q2_1808" />
       <item itemvalue="Application.University" />
       <item itemvalue="Application.PatternMatching" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q2_1808" />
         <item itemvalue="Application.HashCodeHashMap" />
         <item itemvalue="Application.Q2_1722" />
         <item itemvalue="Application.PatternMatching" />
         <item itemvalue="Application.University" />
-        <item itemvalue="Application.TextBlockTest" />
       </list>
     </recent_temporary>
   </component>
