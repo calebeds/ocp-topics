@@ -23,6 +23,6 @@ class Q2_1771 {
         TestClass testClass = new TestClass();
         System.out.println(((T1) testClass).VALUE);
         System.out.println(((T2) testClass).VALUE);
-        System.out.println(testClass.m1(););
+        testClass.m1();
     }
 }
