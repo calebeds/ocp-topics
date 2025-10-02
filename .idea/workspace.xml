@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/questions/collections/Q2_1148.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/questions/collections/Q2_1725.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +96,7 @@
     "Application.Q2_1471.executor": "Run",
     "Application.Q2_1531.executor": "Run",
     "Application.Q2_1722.executor": "Run",
+    "Application.Q2_1725.executor": "Run",
     "Application.Q2_1808.executor": "Run",
     "Application.RaceCondition.executor": "Run",
     "Application.ReadingWritingExample.executor": "Run",
@@ -149,7 +150,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/equalsandhashcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q2_1148">
+  <component name="RunManager" selected="Application.Q2_1725">
     <configuration name="Q2_1110" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="questions.collections.Q2_1110" />
       <module name="ocp-prep" />
@@ -189,8 +190,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q2_1300" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.collections.Q2_1300" />
+    <configuration name="Q2_1471" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.collections.Q2_1471" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
@@ -202,8 +203,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q2_1471" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.collections.Q2_1471" />
+    <configuration name="Q2_1725" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.collections.Q2_1725" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
@@ -219,16 +220,16 @@
       <item itemvalue="Application.Q2_1110" />
       <item itemvalue="Application.Q2_1131" />
       <item itemvalue="Application.Q2_1148" />
-      <item itemvalue="Application.Q2_1300" />
       <item itemvalue="Application.Q2_1471" />
+      <item itemvalue="Application.Q2_1725" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q2_1725" />
         <item itemvalue="Application.Q2_1148" />
         <item itemvalue="Application.Q2_1110" />
         <item itemvalue="Application.Q2_1131" />
         <item itemvalue="Application.Q2_1471" />
-        <item itemvalue="Application.Q2_1300" />
       </list>
     </recent_temporary>
   </component>
@@ -265,6 +266,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/questions/collections/Q2_1725.java</url>
+          <line>18</line>
+          <properties class="questions.collections.Q2_1725" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/concurrency/threadsafefy/AtomicIntegerExample.java</url>
