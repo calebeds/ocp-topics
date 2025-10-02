@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/questions/collections/Q2_1110.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/questions/collections/Q2_1148.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +89,7 @@
     "Application.Q1_173.executor": "Run",
     "Application.Q2_1110.executor": "Run",
     "Application.Q2_1131.executor": "Run",
+    "Application.Q2_1148.executor": "Run",
     "Application.Q2_1300.executor": "Run",
     "Application.Q2_1457.executor": "Run",
     "Application.Q2_1463.executor": "Run",
@@ -148,7 +149,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/equalsandhashcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q2_1110">
+  <component name="RunManager" selected="Application.Q2_1148">
     <configuration name="Q2_1110" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="questions.collections.Q2_1110" />
       <module name="ocp-prep" />
@@ -175,8 +176,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q2_1300" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.collections.Q2_1300" />
+    <configuration name="Q2_1148" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.collections.Q2_1148" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
@@ -188,12 +189,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q2_1457" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.advancedclassdesign.Q2_1457" />
+    <configuration name="Q2_1300" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.collections.Q2_1300" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="questions.advancedclassdesign.*" />
+          <option name="PATTERN" value="questions.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,17 +218,17 @@
     <list>
       <item itemvalue="Application.Q2_1110" />
       <item itemvalue="Application.Q2_1131" />
+      <item itemvalue="Application.Q2_1148" />
       <item itemvalue="Application.Q2_1300" />
-      <item itemvalue="Application.Q2_1457" />
       <item itemvalue="Application.Q2_1471" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q2_1148" />
         <item itemvalue="Application.Q2_1110" />
         <item itemvalue="Application.Q2_1131" />
         <item itemvalue="Application.Q2_1471" />
         <item itemvalue="Application.Q2_1300" />
-        <item itemvalue="Application.Q2_1457" />
       </list>
     </recent_temporary>
   </component>
