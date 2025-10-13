@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/questions/streams/Q2_1804.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/questions/streams/Q2_1787.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +98,7 @@
     "Application.Q2_1722.executor": "Run",
     "Application.Q2_1725.executor": "Run",
     "Application.Q2_1762.executor": "Run",
+    "Application.Q2_1787.executor": "Run",
     "Application.Q2_1793.executor": "Run",
     "Application.Q2_1801.executor": "Run",
     "Application.Q2_1804.executor": "Run",
@@ -158,9 +159,22 @@
       <recent name="$PROJECT_DIR$/src/main/java/equalsandhashcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q2_1804">
+  <component name="RunManager" selected="Application.Q2_1787">
     <configuration name="Q2_1762" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="questions.streams.Q2_1762" />
+      <module name="ocp-prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="questions.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q2_1787" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.streams.Q2_1787" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
@@ -178,19 +192,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="questions.streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q2_1813" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.lambdaandfi.Q2_1813" />
-      <module name="ocp-prep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="questions.lambdaandfi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -226,18 +227,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Q2_1762" />
+      <item itemvalue="Application.Q2_1787" />
       <item itemvalue="Application.Q2_1804" />
-      <item itemvalue="Application.Q2_1813" />
       <item itemvalue="Application.Q2_2023" />
       <item itemvalue="Application.Q2_3319" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q2_1787" />
         <item itemvalue="Application.Q2_1804" />
         <item itemvalue="Application.Q2_1762" />
         <item itemvalue="Application.Q2_2023" />
         <item itemvalue="Application.Q2_3319" />
-        <item itemvalue="Application.Q2_1813" />
       </list>
     </recent_temporary>
   </component>
