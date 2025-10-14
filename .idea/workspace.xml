@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/questions/streams/Q2_1847.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/questions/streams/Q2_2024.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,8 +107,10 @@
     "Application.Q2_1813.executor": "Run",
     "Application.Q2_1846.executor": "Run",
     "Application.Q2_1847.executor": "Run",
+    "Application.Q2_1858.executor": "Run",
     "Application.Q2_1863.executor": "Run",
     "Application.Q2_2023.executor": "Run",
+    "Application.Q2_2024.executor": "Run",
     "Application.Q2_3319.executor": "Run",
     "Application.RaceCondition.executor": "Run",
     "Application.ReadingWritingExample.executor": "Run",
@@ -160,36 +163,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/localization" />
       <recent name="$PROJECT_DIR$/src/main/java/equalsandhashcode" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="questions.streams" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Q2_1847">
-    <configuration name="Q2_1762" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.streams.Q2_1762" />
-      <module name="ocp-prep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="questions.streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Q2_2024">
     <configuration name="Q2_1787" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="questions.streams.Q2_1787" />
-      <module name="ocp-prep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="questions.streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q2_1804" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.streams.Q2_1804" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
@@ -227,20 +207,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Q2_1858" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.streams.Q2_1858" />
+      <module name="ocp-prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="questions.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q2_2024" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.streams.Q2_2024" />
+      <module name="ocp-prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="questions.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Q2_1762" />
       <item itemvalue="Application.Q2_1787" />
-      <item itemvalue="Application.Q2_1804" />
       <item itemvalue="Application.Q2_1846" />
       <item itemvalue="Application.Q2_1847" />
+      <item itemvalue="Application.Q2_1858" />
+      <item itemvalue="Application.Q2_2024" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q2_2024" />
+        <item itemvalue="Application.Q2_1858" />
         <item itemvalue="Application.Q2_1847" />
         <item itemvalue="Application.Q2_1846" />
         <item itemvalue="Application.Q2_1787" />
-        <item itemvalue="Application.Q2_1804" />
-        <item itemvalue="Application.Q2_1762" />
       </list>
     </recent_temporary>
   </component>
