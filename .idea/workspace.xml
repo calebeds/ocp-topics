@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/questions/datetime/Q2_2018.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/questions/datetime/Q2_1743.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +98,7 @@
     "Application.Q2_1531.executor": "Run",
     "Application.Q2_1722.executor": "Run",
     "Application.Q2_1725.executor": "Run",
+    "Application.Q2_1743.executor": "Run",
     "Application.Q2_1762.executor": "Run",
     "Application.Q2_1787.executor": "Run",
     "Application.Q2_1793.executor": "Run",
@@ -168,13 +170,13 @@
       <recent name="questions.streams" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q2_2018">
-    <configuration name="Q2_1841" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.streams.Q2_1841" />
+  <component name="RunManager" selected="Application.Q2_1743">
+    <configuration name="Q2_1743" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.datetime.Q2_1743" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="questions.streams.*" />
+          <option name="PATTERN" value="questions.datetime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,8 +184,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q2_1847" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.streams.Q2_1847" />
+    <configuration name="Q2_1841" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.streams.Q2_1841" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
@@ -235,19 +237,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Q2_1743" />
       <item itemvalue="Application.Q2_1841" />
-      <item itemvalue="Application.Q2_1847" />
       <item itemvalue="Application.Q2_1858" />
       <item itemvalue="Application.Q2_2018" />
       <item itemvalue="Application.Q2_2024" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q2_1743" />
         <item itemvalue="Application.Q2_2018" />
         <item itemvalue="Application.Q2_1841" />
         <item itemvalue="Application.Q2_2024" />
         <item itemvalue="Application.Q2_1858" />
-        <item itemvalue="Application.Q2_1847" />
       </list>
     </recent_temporary>
   </component>
