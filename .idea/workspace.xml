@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/questions/datetime/Q2_1749.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/questions/threads/Q2_1728.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,10 +101,12 @@
     "Application.Q2_1531.executor": "Run",
     "Application.Q2_1722.executor": "Run",
     "Application.Q2_1725.executor": "Run",
+    "Application.Q2_1728.executor": "Run",
     "Application.Q2_1743.executor": "Run",
     "Application.Q2_1749.executor": "Run",
     "Application.Q2_1760.executor": "Run",
     "Application.Q2_1762.executor": "Run",
+    "Application.Q2_1768.executor": "Run",
     "Application.Q2_1787.executor": "Run",
     "Application.Q2_1793.executor": "Run",
     "Application.Q2_1801.executor": "Run",
@@ -145,11 +150,12 @@
     "Application.UseQueues.executor": "Run",
     "Application.UseSets.executor": "Run",
     "Maven.ocp-prep [clean].executor": "Run",
+    "Maven.ocp-prep [compile].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/calebesantos/dev/projects/ocp-prep/src/main/java/lvti",
+    "last_opened_file_path": "/home/calebesantos/dev/projects/ocp-prep/src/main/java/questions/localization",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -163,22 +169,26 @@
       <recent name="lambda.assignment" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/questions/localization" />
+      <recent name="$PROJECT_DIR$/src/main/java/questions/streams" />
       <recent name="$PROJECT_DIR$/src/main/java/lvti" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/java/localization" />
-      <recent name="$PROJECT_DIR$/src/main/java/equalsandhashcode" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/questions/localization" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="questions.streams" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q2_2018">
-    <configuration name="Q2_1743" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.datetime.Q2_1743" />
+  <component name="RunManager" selected="Application.Q2_1728">
+    <configuration name="Q2_1728" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.threads.Q2_1728" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="questions.datetime.*" />
+          <option name="PATTERN" value="questions.threads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,12 +222,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q2_1841" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.streams.Q2_1841" />
+    <configuration name="Q2_1768" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.localization.Q2_1768" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="questions.streams.*" />
+          <option name="PATTERN" value="questions.localization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -239,19 +249,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Q2_1743" />
+      <item itemvalue="Application.Q2_1728" />
       <item itemvalue="Application.Q2_1749" />
       <item itemvalue="Application.Q2_1760" />
-      <item itemvalue="Application.Q2_1841" />
+      <item itemvalue="Application.Q2_1768" />
       <item itemvalue="Application.Q2_2018" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q2_1728" />
+        <item itemvalue="Application.Q2_1768" />
         <item itemvalue="Application.Q2_2018" />
         <item itemvalue="Application.Q2_1749" />
         <item itemvalue="Application.Q2_1760" />
-        <item itemvalue="Application.Q2_1743" />
-        <item itemvalue="Application.Q2_1841" />
       </list>
     </recent_temporary>
   </component>
@@ -312,6 +322,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/questions/datetime/Q2_2018.java</url>
           <line>9</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/questions/threads/Q2_1728.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
