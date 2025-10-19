@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/questions/threads/Q2_1241.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/questions/threads/Q2_3362.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +119,7 @@
     "Application.Q2_2023.executor": "Run",
     "Application.Q2_2024.executor": "Run",
     "Application.Q2_3319.executor": "Run",
+    "Application.Q2_3362.executor": "Run",
     "Application.RaceCondition.executor": "Run",
     "Application.ReadingWritingExample.executor": "Run",
     "Application.RelativizeExamples.executor": "Run",
@@ -181,7 +181,7 @@
       <recent name="questions.streams" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ComplicatedAction">
+  <component name="RunManager" selected="Application.Q2_3362">
     <configuration name="ComplicatedAction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="questions.threads.ComplicatedAction" />
       <module name="ocp-prep" />
@@ -221,12 +221,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q2_2018" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.datetime.Q2_2018" />
+    <configuration name="Q2_3362" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.threads.Q2_3362" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="questions.datetime.*" />
+          <option name="PATTERN" value="questions.threads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -249,18 +249,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.ComplicatedAction" />
+      <item itemvalue="Application.Q2_3362" />
       <item itemvalue="Application.Q2_1728" />
       <item itemvalue="Application.Q2_1768" />
-      <item itemvalue="Application.Q2_2018" />
       <item itemvalue="Application.Student" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q2_3362" />
         <item itemvalue="Application.ComplicatedAction" />
         <item itemvalue="Application.Student" />
         <item itemvalue="Application.Q2_1728" />
         <item itemvalue="Application.Q2_1768" />
-        <item itemvalue="Application.Q2_2018" />
       </list>
     </recent_temporary>
   </component>
