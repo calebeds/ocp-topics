@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/questions/threads/Q2_3362.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/questions/serializable/Q2_1701.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,6 +138,7 @@
     "Application.SuperAndExtends.executor": "Run",
     "Application.SwitchExpressions.executor": "Run",
     "Application.TerminalOperations.executor": "Run",
+    "Application.TestClass.executor": "Run",
     "Application.TestGenericClass.executor": "Run",
     "Application.TestPredicate.executor": "Run",
     "Application.TextBlockTest.executor": "Run",
@@ -181,7 +182,7 @@
       <recent name="questions.streams" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q2_3362">
+  <component name="RunManager" selected="Application.TestClass">
     <configuration name="ComplicatedAction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="questions.threads.ComplicatedAction" />
       <module name="ocp-prep" />
@@ -201,19 +202,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="questions.threads.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q2_1768" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.localization.Q2_1768" />
-      <module name="ocp-prep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="questions.localization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -247,20 +235,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.serializable.TestClass" />
+      <module name="ocp-prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="questions.serializable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.ComplicatedAction" />
       <item itemvalue="Application.Q2_3362" />
+      <item itemvalue="Application.TestClass" />
       <item itemvalue="Application.Q2_1728" />
-      <item itemvalue="Application.Q2_1768" />
       <item itemvalue="Application.Student" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestClass" />
         <item itemvalue="Application.Q2_3362" />
         <item itemvalue="Application.ComplicatedAction" />
         <item itemvalue="Application.Student" />
         <item itemvalue="Application.Q2_1728" />
-        <item itemvalue="Application.Q2_1768" />
       </list>
     </recent_temporary>
   </component>
