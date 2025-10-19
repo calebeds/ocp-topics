@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/questions/serializable/Q2_1701.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/questions/ioandnio/Q2_1717.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +96,7 @@
     "Application.Q2_1463.executor": "Run",
     "Application.Q2_1471.executor": "Run",
     "Application.Q2_1531.executor": "Run",
+    "Application.Q2_1717.executor": "Run",
     "Application.Q2_1722.executor": "Run",
     "Application.Q2_1725.executor": "Run",
     "Application.Q2_1728.executor": "Run",
@@ -182,7 +183,7 @@
       <recent name="questions.streams" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestClass">
+  <component name="RunManager" selected="Application.Q2_1717">
     <configuration name="ComplicatedAction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="questions.threads.ComplicatedAction" />
       <module name="ocp-prep" />
@@ -196,12 +197,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q2_1728" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.threads.Q2_1728" />
+    <configuration name="Q2_1717" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.ioandnio.Q2_1717" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="questions.threads.*" />
+          <option name="PATTERN" value="questions.ioandnio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -250,18 +251,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.ComplicatedAction" />
+      <item itemvalue="Application.Q2_1717" />
       <item itemvalue="Application.Q2_3362" />
       <item itemvalue="Application.TestClass" />
-      <item itemvalue="Application.Q2_1728" />
       <item itemvalue="Application.Student" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q2_1717" />
         <item itemvalue="Application.TestClass" />
         <item itemvalue="Application.Q2_3362" />
         <item itemvalue="Application.ComplicatedAction" />
         <item itemvalue="Application.Student" />
-        <item itemvalue="Application.Q2_1728" />
       </list>
     </recent_temporary>
   </component>
