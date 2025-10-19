@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fec32-cf05-401a-84ef-0593b55f377f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/questions/objectorientedapproach/OrderOfInitialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/questions/arrays/Q2_3102.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +122,7 @@
     "Application.Q2_2018.executor": "Run",
     "Application.Q2_2023.executor": "Run",
     "Application.Q2_2024.executor": "Run",
+    "Application.Q2_3102.executor": "Run",
     "Application.Q2_3319.executor": "Run",
     "Application.Q2_3350.executor": "Run",
     "Application.Q2_3362.executor": "Run",
@@ -187,7 +189,7 @@
       <recent name="questions.streams" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OrderOfInitialization">
+  <component name="RunManager" selected="Application.Q2_3102">
     <configuration name="OrderOfInitialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="questions.objectorientedapproach.OrderOfInitialization" />
       <module name="ocp-prep" />
@@ -201,8 +203,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q2_1717" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.ioandnio.Q2_1717" />
+    <configuration name="Q2_1774" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.ioandnio.Q2_1774" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
@@ -214,12 +216,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q2_1774" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.ioandnio.Q2_1774" />
+    <configuration name="Q2_3102" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.arrays.Q2_3102" />
       <module name="ocp-prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="questions.ioandnio.*" />
+          <option name="PATTERN" value="questions.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -255,18 +257,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.OrderOfInitialization" />
-      <item itemvalue="Application.Q2_1717" />
       <item itemvalue="Application.Q2_1774" />
+      <item itemvalue="Application.Q2_3102" />
       <item itemvalue="Application.Q2_3350" />
       <item itemvalue="Application.questions.interfaces.TestClass" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q2_3102" />
         <item itemvalue="Application.OrderOfInitialization" />
         <item itemvalue="Application.questions.interfaces.TestClass" />
         <item itemvalue="Application.Q2_3350" />
         <item itemvalue="Application.Q2_1774" />
-        <item itemvalue="Application.Q2_1717" />
       </list>
     </recent_temporary>
   </component>
